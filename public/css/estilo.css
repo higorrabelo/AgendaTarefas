@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: azure;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:white;
+    height: auto;
+    width: 960px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 12px;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box{
+    height: auto;
+    width: auto;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 12px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.boxconcluido{
+    height: 250px;
+    width: 280px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 12px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: rgb(2, 250, 2);
+    color: white;
+    opacity: 60%;
+
+}
+.boxpendente{
+    height: 250px;
+    width: 280px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 12px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: rgb(253, 0, 0);
+    color: white;
+    opacity: 60%;
+}
+.boxaberto{
+    height: 250px;
+    width: 300px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 12px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: rgb(228, 253, 0);
+    color: white;
+    opacity: 60%;
+
+}
+
+
+
+.bg-violeta{
+    background-color: blueviolet;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
