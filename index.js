@@ -18,6 +18,11 @@ app.use(bodyParser.json())
 app.get('/', function (req, res) {
     res.render('login',{layouts:"Login",obj:{login:false}});
 });
+
+app.get('/cadastro', function (req, res) {
+    res.render('cadastro',{layouts:"Cadastro de Usuário",obj:{login:false}});
+});
+
 app.get('/home', function (req, res) {
     res.render('home',{layouts:"Inicial",helpers:{nome:"Higor",email:"higor.rabelo@gmail.com"}});
 });
